@@ -1,0 +1,6 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pillow>=10.0
+numpy>=1.26
+# The model was saved with Keras 3, so TensorFlow 2.16+ is required
+tensorflow>=2.17,<2.21

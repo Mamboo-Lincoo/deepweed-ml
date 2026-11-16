@@ -1,0 +1,7 @@
+# Light dependencies for hosting on Render's free tier (no TensorFlow, ~150 MB RAM).
+# Needs models/weed_classifier.tflite - create it once with convert_to_tflite.py
+fastapi>=0.110
+uvicorn>=0.29
+pillow>=10.0
+numpy>=1.26
+ai-edge-litert>=1.0
